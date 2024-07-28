@@ -51,7 +51,7 @@ const leaveFullScreen = () => {
 const generateNumbers = () => {
   checked.value = false
   numbers.value = [];
-  for (let i = 0; i < 6 * 4; i++) {
+  for (let i = 0; i < 6 * 10; i++) {
     numbers.value.push(Math.floor(Math.random() * 10));
   }
 };

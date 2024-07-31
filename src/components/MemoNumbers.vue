@@ -158,259 +158,259 @@ const majorLearnData = ref([
     },
     {
         "order": "36",
-        "value": ""
+        "value": "MaktaB"
     },
     {
         "order": "37",
-        "value": ""
+        "value": "MaKaron"
     },
     {
         "order": "38",
-        "value": ""
+        "value": "MikraFon"
     },
     {
         "order": "39",
-        "value": ""
+        "value": "MaGnit"
     },
     {
         "order": "40",
-        "value": ""
+        "value": "RaZetka"
     },
     {
         "order": "41",
-        "value": ""
+        "value": "RaTaTuy"
     },
     {
         "order": "42",
-        "value": ""
+        "value": "RaNda"
     },
     {
         "order": "43",
-        "value": ""
+        "value": "Ro'Mol"
     },
     {
         "order": "44",
-        "value": ""
+        "value": "aRRa"
     },
     {
         "order": "45",
-        "value": ""
+        "value": "RuL"
     },
     {
         "order": "46",
-        "value": ""
+        "value": "RoBot"
     },
     {
         "order": "47",
-        "value": ""
+        "value": "RaKeta"
     },
     {
         "order": "48",
-        "value": ""
+        "value": "RaFiqa"
     },
     {
         "order": "49",
-        "value": ""
+        "value": "RichaG"
     },
     {
         "order": "50",
-        "value": ""
+        "value": "LaZer"
     },
     {
         "order": "51",
-        "value": ""
+        "value": "LaTta"
     },
     {
         "order": "52",
-        "value": ""
+        "value": "LeNta"
     },
     {
         "order": "53",
-        "value": ""
+        "value": "LiMon"
     },
     {
         "order": "54",
-        "value": ""
+        "value": "LoR"
     },
     {
         "order": "55",
-        "value": ""
+        "value": "LoLa"
     },
     {
         "order": "56",
-        "value": ""
+        "value": "LaB"
     },
     {
         "order": "57",
-        "value": ""
+        "value": "LaylaK"
     },
     {
         "order": "58",
-        "value": ""
+        "value": "LiFt"
     },
     {
         "order": "59",
-        "value": ""
+        "value": "LaGan"
     },
     {
         "order": "60",
-        "value": ""
+        "value": "BenZin"
     },
     {
         "order": "61",
-        "value": ""
+        "value": "BuTilka"
     },
     {
         "order": "62",
-        "value": ""
+        "value": "BaNan"
     },
     {
         "order": "63",
-        "value": ""
+        "value": "BaMbuk"
     },
     {
         "order": "64",
-        "value": ""
+        "value": "BaRg"
     },
     {
         "order": "65",
-        "value": ""
+        "value": "BaLkon"
     },
     {
         "order": "66",
-        "value": ""
+        "value": "BaraBan"
     },
     {
         "order": "67",
-        "value": ""
+        "value": "BaKal"
     },
     {
         "order": "68",
-        "value": ""
+        "value": "BuFet"
     },
     {
         "order": "69",
-        "value": ""
+        "value": "BeGimot"
     },
     {
         "order": "70",
-        "value": ""
+        "value": "Ko'Za"
     },
     {
         "order": "71",
-        "value": ""
+        "value": "KeTmon"
     },
     {
         "order": "72",
-        "value": ""
+        "value": "KoN"
     },
     {
         "order": "73",
-        "value": ""
+        "value": "KeMa"
     },
     {
         "order": "74",
-        "value": ""
+        "value": "KaRate"
     },
     {
         "order": "75",
-        "value": ""
+        "value": "KaLit"
     },
     {
         "order": "76",
-        "value": ""
+        "value": "KuBik"
     },
     {
         "order": "77",
-        "value": ""
+        "value": "KaKtel"
     },
     {
         "order": "78",
-        "value": ""
+        "value": "KaFan"
     },
     {
         "order": "79",
-        "value": ""
+        "value": "KapGir"
     },
     {
         "order": "80",
-        "value": ""
+        "value": "FaZo"
     },
     {
         "order": "81",
-        "value": ""
+        "value": "FuTzal"
     },
     {
         "order": "82",
-        "value": ""
+        "value": "FeN"
     },
     {
         "order": "83",
-        "value": ""
+        "value": "FilM"
     },
     {
         "order": "84",
-        "value": ""
+        "value": "FaRtug"
     },
     {
         "order": "85",
-        "value": ""
+        "value": "FiL"
     },
     {
         "order": "86",
-        "value": ""
+        "value": "FaBrika"
     },
     {
         "order": "87",
-        "value": ""
+        "value": "FiziK"
     },
     {
         "order": "88",
-        "value": ""
+        "value": "FotograF"
     },
     {
         "order": "89",
-        "value": ""
+        "value": "FurGon"
     },
     {
         "order": "90",
-        "value": ""
+        "value": "GaZeta"
     },
     {
         "order": "91",
-        "value": ""
+        "value": "GiTara"
     },
     {
         "order": "92",
-        "value": ""
+        "value": "GaNtel"
     },
     {
         "order": "93",
-        "value": ""
+        "value": "GuMMa"
     },
     {
         "order": "94",
-        "value": ""
+        "value": "GaRov"
     },
     {
         "order": "95",
-        "value": ""
+        "value": "GiLos"
     },
     {
         "order": "96",
-        "value": ""
+        "value": "GerB"
     },
     {
         "order": "97",
-        "value": ""
+        "value": "GeKtar"
     },
     {
         "order": "98",
-        "value": ""
+        "value": "GraFin"
     },
     {
         "order": "99",
-        "value": ""
+        "value": "GuGurt"
     }
 ]);
 </script>

@@ -1,16 +1,28 @@
 <template>
     <div class="w-full h-full">
-        <div class="flex flex-wrap gap-2 mt-4">
-            <div v-for="(value, key) in majorLearnData" :key="key" class="bg-green-600 opacity-70 text-white tracking-wider text-xl p-2 rounded-md shadow-md">
+        <button class="mx-auto mt-2 bg-green-500 text-white rounded-md p-2 px-4" @click="randomize">Randomize</button>
+        <div class="grid gap-4 grid-cols-1 mt-4">
+            <div v-for="(value, key) in majorLearnData" :key="key" class="bg-slate-500 w-[50%] mx-auto h-52 flex justify-center items-center opacity-70 text-white tracking-wider text-4xl p-2 rounded-md shadow-md">
                 <div>{{ value.order }} -- {{ value.value }}</div>
             </div>
         </div>
     </div>
 </template>
 
-
 <script setup>
 import { ref } from 'vue';
+
+function randomize() {
+    majorLearnData.value = shuffleArray(majorLearnData.value);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
 const majorLearnData = ref([
     {
         "order": "00",
@@ -413,24 +425,8 @@ const majorLearnData = ref([
         "value": "GuGurt"
     }
 ]);
+
+
 </script>
 
-<style scoped>
-.list-container {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-.list-item {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-</style>
+<style scoped></style>

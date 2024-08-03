@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-gray-400/50 w-full h-screen py-4 flex flex-col">
-    <NormalModeText class="my-auto" @openF11="openFullscreen" v-if="!isFullscreen"/>
+  <div class="bg-gray-400/50 w-full h-wull py-4 flex flex-col">
+    <NormalModeText class="my-auto" @openF11="openFullscreen" v-if="!isFullscreen" />
     <div v-else class="container mx-auto py-8 px-4">
-      <Main/>
+      <Main />
     </div>
   </div>
 </template>
@@ -61,5 +61,9 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+* {
+  min-height: 100vh;
+  height: 100% !important;
+}
 /* Add any specific styles you want */
 </style>

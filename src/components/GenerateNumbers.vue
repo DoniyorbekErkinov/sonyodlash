@@ -37,7 +37,7 @@ const generateNumbers = () => {
     checked.value = false
     numbers.value = [];
     letters.value = [];
-    for (let i = 0; i < 6 * 10; i++) {
+    for (let i = 0; i < 6 * 2; i++) {
         numbers.value.push(Math.floor(Math.random() * 10));
     }
 };

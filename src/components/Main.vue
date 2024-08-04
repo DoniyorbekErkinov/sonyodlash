@@ -10,6 +10,9 @@
     <div v-if="activeTab === 'memoNumbers'">
       <MemoNumbers />
     </div>
+    <div v-if="activeTab === 'quizTextAndNumber'">
+      <RememberNumbersWithWords />
+    </div>
   </div>
 </template>
 
@@ -18,9 +21,11 @@ import { ref } from 'vue'
 import Tabs from './Tabs.vue'
 import GenerateNumbers from './GenerateNumbers.vue'
 import MemoNumbers from './MemoNumbers.vue';
+import RememberNumbersWithWords from './RememberNumbersWithWords.vue';
 const tabs = ref([
   { text: 'Generate Numbers', value: 'generateNumbers' },
   { text: 'Memorize Numbers', value: 'memoNumbers' },
+  { text: 'quiz Text and Number', value: 'quizTextAndNumber' },
 ])
 
 const activeTab = ref('generateNumbers')

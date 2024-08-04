@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full flex flex-col">
+  <div class="container w-full h-full flex flex-col">
     <!-- <div class="fixed top-0 left-0 w-full z-10 p-4">
       <button @click="leaveFullScreen" class="p-2 bg-blue-500 text-white rounded">Tizimdan chiqish</button>
     </div> -->

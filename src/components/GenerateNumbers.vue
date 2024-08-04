@@ -18,26 +18,18 @@
 
 <script setup>
 import { ref } from 'vue';
+import {useMainComposible} from "../helpers/useMainComposible"
+
+const {hrk} = useMainComposible()
 const numbers = ref([]);
 const letters = ref([])
-const hrk = ref({
-    z: 0,
-    t: 1,
-    n: 2,
-    m: 3,
-    r: 4,
-    l: 5,
-    b: 6,
-    k: 7,
-    f: 8,
-    g: 9
-})
+
 
 const generateNumbers = () => {
     checked.value = false
     numbers.value = [];
     letters.value = [];
-    for (let i = 0; i < 6 * 2; i++) {
+    for (let i = 0; i < 6 * 10; i++) {
         numbers.value.push(Math.floor(Math.random() * 10));
     }
 };
@@ -51,8 +43,6 @@ const CheckNumbersAndLetters = () => {
                 if (hrk.value[letters.value[i].toLowerCase()] == numbers.value[i]) {
                     correctAnswers.value++;
                 }
-            } else {
-                console.log('Else');
             }
         }
         checked.value = true;

@@ -1,8 +1,8 @@
 <template>
   <div class="w-full h-full flex flex-col">
-    <div class="fixed top-0 left-0 w-full z-10 p-4">
+    <!-- <div class="fixed top-0 left-0 w-full z-10 p-4">
       <button @click="leaveFullScreen" class="p-2 bg-blue-500 text-white rounded">Tizimdan chiqish</button>
-    </div>
+    </div> -->
     <Tabs :tabs="tabs" :activeTab="activeTab" @updateTab="activeTab = $event" />
     <div v-if="activeTab === 'generateNumbers'">
       <GenerateNumbers />
@@ -25,17 +25,17 @@ const tabs = ref([
 
 const activeTab = ref('generateNumbers')
 
-const leaveFullScreen = () => {
-  if (document.exitFullscreen) {
-    document.exitFullscreen()
-  } else if (document.mozCancelFullScreen) {
-    document.mozCancelFullScreen()
-  } else if (document.webkitExitFullscreen) {
-    document.webkitExitFullscreen()
-  } else if (document.msExitFullscreen) {
-    document.msExitFullscreen()
-  }
-}
+// const leaveFullScreen = () => {
+//   if (document.exitFullscreen) {
+//     document.exitFullscreen()
+//   } else if (document.mozCancelFullScreen) {
+//     document.mozCancelFullScreen()
+//   } else if (document.webkitExitFullscreen) {
+//     document.webkitExitFullscreen()
+//   } else if (document.msExitFullscreen) {
+//     document.msExitFullscreen()
+//   }
+// }
 </script>
 
 <style scoped>

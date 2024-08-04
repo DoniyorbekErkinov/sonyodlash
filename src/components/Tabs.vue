@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button v-for="tab in tabs" :key="tab.value" @click="selectTab(tab.value)" :class="['mt-4 p-2 ', { 'bg-blue-700': tab.value === activeTab, 'bg-slate-50 text-sky-900 font-medium border border-x-sky-700': tab.value !== activeTab }]" class="text-white">
+        <button v-for="tab in tabs" :key="tab.value" @click="selectTab(tab.value)" :class="['mt-4 p-2 ', { 'bg-blue-700 text-white': tab.value === activeTab, 'bg-slate-50 text-sky-900 font-medium border border-x-sky-700': tab.value !== activeTab }]">
             {{ tab.text }}
         </button>
     </div>

@@ -48,7 +48,7 @@ const CheckNumbersAndLetters = () => {
     if (numbers.value.length == letters.value.length) {
         for (let i = 0; i < numbers.value.length; i++) { // Use < instead of <=
             if (letters.value[i] !== 'undefined' && letters.value[i] !== null) {
-                if (hrk.value[letters.value[i]] == numbers.value[i]) {
+                if (hrk.value[letters.value[i].toLowerCase()] == numbers.value[i]) {
                     correctAnswers.value++;
                 }
             } else {
